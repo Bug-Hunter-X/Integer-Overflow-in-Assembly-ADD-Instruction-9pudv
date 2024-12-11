@@ -1,0 +1,3 @@
+# Integer Overflow Bug in Assembly
+
+This repository demonstrates a potential integer overflow bug in a simple assembly language program.  The code adds two registers (cx and bx) and stores the result in another register (ax). If the sum exceeds the maximum value representable by ax, an overflow occurs, leading to incorrect results. The solution shows how to handle this using conditional checks to prevent the overflow.
